@@ -1,0 +1,16 @@
+.\objects\bsp_flash.o: ..\Usr\src\bsp_flash.c
+.\objects\bsp_flash.o: ..\Usr\inc\bsp_flash.h
+.\objects\bsp_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\bsp_flash.o: ..\Libraries\inc\cw32l010_flash.h
+.\objects\bsp_flash.o: ..\Libraries\inc\system_cw32l010.h
+.\objects\bsp_flash.o: ..\Libraries\inc\cw32l010.h
+.\objects\bsp_flash.o: C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\bsp_flash.o: C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\bsp_flash.o: C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\bsp_flash.o: C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\bsp_flash.o: ..\Libraries\inc\base_types.h
+.\objects\bsp_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bsp_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\bsp_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\bsp_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h

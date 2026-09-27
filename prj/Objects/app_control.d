@@ -1,0 +1,14 @@
+.\objects\app_control.o: ..\Usr\src\app_control.c
+.\objects\app_control.o: ..\Usr\inc\app_control.h
+.\objects\app_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\app_control.o: ..\Usr\inc\bsp_adc.h
+.\objects\app_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\app_control.o: ..\Usr\inc\bsp_flash.h
+.\objects\app_control.o: ..\uart\uart_handler.h
+.\objects\app_control.o: ..\uart\ring_buffer.h
+.\objects\app_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\app_control.o: ..\Usr\inc\app_led.h
+.\objects\app_control.o: ..\Usr\inc\bsp_io.h
+.\objects\app_control.o: ..\QI_prototol\qi_tx_hw.h
+.\objects\app_control.o: ..\Usr\inc\app_protect.h
+.\objects\app_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

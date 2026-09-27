@@ -1,0 +1,465 @@
+Dependencies for Project 'wy20w', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\Usr\startup_cw32l010.s)(0x6A575B10)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include--pd "__UVISION_VERSION SETA 537" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_cw32l010.lst --xref -o .\objects\startup_cw32l010.o --depend .\objects\startup_cw32l010.d)
+F (..\Libraries\src\system_cw32l010.c)(0x677F78FA)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\system_cw32l010.o --omf_browse .\objects\system_cw32l010.crf --depend .\objects\system_cw32l010.d)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+F (..\Usr\src\interrupts_cw32l010.c)(0x6A7D38B3)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\interrupts_cw32l010.o --omf_browse .\objects\interrupts_cw32l010.crf --depend .\objects\interrupts_cw32l010.d)
+I (..\Usr\src\../inc/main.h)(0x6A55ED2F)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\cw32l010_systick.h)(0x677F78FA)
+I (..\Usr\src\../inc/interrupts_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_btim.h)(0x683FE92E)
+I (..\Libraries\inc\cw32l010_atim.h)(0x683FFA9E)
+I (..\Libraries\inc\cw32l010_uart.h)(0x688C0C1E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\cw32l010_iwdt.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_vc.h)(0x677F78FA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Qi\Inc\config.h)(0x690C6700)
+F (..\Usr\src\main.c)(0x6AB4C64C)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Usr\src\../inc/main.h)(0x6A55ED2F)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\cw32l010_systick.h)(0x677F78FA)
+I (..\Usr\src\../inc/interrupts_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_btim.h)(0x683FE92E)
+I (..\Libraries\inc\cw32l010_atim.h)(0x683FFA9E)
+I (..\Libraries\inc\cw32l010_uart.h)(0x688C0C1E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\cw32l010_iwdt.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_vc.h)(0x677F78FA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Qi\Inc\config.h)(0x690C6700)
+I (..\Libraries\inc\cw32l010_adc.h)(0x677F78FA)
+I (..\Qi\Inc\constant.h)(0x66AC40A6)
+I (..\Usr\inc\bsp_adc.h)(0x6A6C6698)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\Usr\inc\app_control.h)(0x6A964772)
+I (..\Usr\inc\app_led.h)(0x6A86A2C1)
+I (..\Usr\inc\bsp_uart.h)(0x6A572218)
+I (..\Usr\inc\bsp_io.h)(0x6A5DC94F)
+I (..\Usr\inc\bsp_flash.h)(0x6A968310)
+I (..\Usr\inc\bsp_vc.h)(0x6A589D51)
+I (..\uart\ring_buffer.h)(0x6A61D50B)
+I (..\uart\uart_handler.h)(0x6A584B64)
+I (..\QI_prototol\qi_tx_hw.h)(0x6A66F80B)
+F (..\Usr\src\app_control.c)(0x6AB4CA8B)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\app_control.o --omf_browse .\objects\app_control.crf --depend .\objects\app_control.d)
+I (..\Usr\inc\app_control.h)(0x6A964772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Usr\inc\bsp_adc.h)(0x6A6C6698)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\Usr\inc\bsp_flash.h)(0x6A968310)
+I (..\uart\uart_handler.h)(0x6A584B64)
+I (..\uart\ring_buffer.h)(0x6A61D50B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\Usr\inc\app_led.h)(0x6A86A2C1)
+I (..\Usr\inc\bsp_io.h)(0x6A5DC94F)
+I (..\QI_prototol\qi_tx_hw.h)(0x6A66F80B)
+I (..\Usr\inc\app_protect.h)(0x6AACFF36)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (..\Usr\src\app_led.c)(0x6A8950AE)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\app_led.o --omf_browse .\objects\app_led.crf --depend .\objects\app_led.d)
+I (..\Usr\inc\app_led.h)(0x6A86A2C1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\Usr\inc\bsp_io.h)(0x6A5DC94F)
+F (..\Usr\src\app_protect.c)(0x6AA8FEBC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\app_protect.o --omf_browse .\objects\app_protect.crf --depend .\objects\app_protect.d)
+I (..\Usr\inc\app_protect.h)(0x6AACFF36)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\Usr\inc\app_control.h)(0x6A964772)
+F (..\Libraries\src\cw32l010_adc.c)(0x682E9E54)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_adc.o --omf_browse .\objects\cw32l010_adc.crf --depend .\objects\cw32l010_adc.d)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_adc.h)(0x677F78FA)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+F (..\Libraries\src\cw32l010_atim.c)(0x6A59F725)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_atim.o --omf_browse .\objects\cw32l010_atim.crf --depend .\objects\cw32l010_atim.d)
+I (..\Libraries\inc\cw32l010_atim.h)(0x683FFA9E)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+F (..\Libraries\src\cw32l010_btim.c)(0x6A55A39C)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_btim.o --omf_browse .\objects\cw32l010_btim.crf --depend .\objects\cw32l010_btim.d)
+I (..\Libraries\inc\cw32l010_btim.h)(0x683FE92E)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+F (..\Libraries\src\cw32l010_gpio.c)(0x6A5DC8D4)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_gpio.o --omf_browse .\objects\cw32l010_gpio.crf --depend .\objects\cw32l010_gpio.d)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+F (..\Libraries\src\cw32l010_sysctrl.c)(0x6842A974)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_sysctrl.o --omf_browse .\objects\cw32l010_sysctrl.crf --depend .\objects\cw32l010_sysctrl.d)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+F (..\Libraries\src\cw32l010_gtim.c)(0x683FE92E)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_gtim.o --omf_browse .\objects\cw32l010_gtim.crf --depend .\objects\cw32l010_gtim.d)
+I (..\Libraries\inc\cw32l010_gtim.h)(0x683FE92E)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+F (..\Libraries\src\cw32l010_uart.c)(0x6A5736E8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_uart.o --omf_browse .\objects\cw32l010_uart.crf --depend .\objects\cw32l010_uart.d)
+I (..\Libraries\inc\cw32l010_uart.h)(0x688C0C1E)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+F (..\Libraries\src\cw32l010_flash.c)(0x6842B084)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_flash.o --omf_browse .\objects\cw32l010_flash.crf --depend .\objects\cw32l010_flash.d)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+F (..\Libraries\src\cw32l010_iwdt.c)(0x677F78FA)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_iwdt.o --omf_browse .\objects\cw32l010_iwdt.crf --depend .\objects\cw32l010_iwdt.d)
+I (..\Libraries\inc\cw32l010_iwdt.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+F (..\Libraries\src\cw32l010_vc.c)(0x677F78FA)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\cw32l010_vc.o --omf_browse .\objects\cw32l010_vc.crf --depend .\objects\cw32l010_vc.d)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_vc.h)(0x677F78FA)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010_adc.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+F (..\Usr\src\bsp_adc.c)(0x6A9A2766)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\bsp_adc.o --omf_browse .\objects\bsp_adc.crf --depend .\objects\bsp_adc.d)
+I (..\Usr\inc\bsp_adc.h)(0x6A6C6698)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\Usr\src\../inc/main.h)(0x6A55ED2F)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\cw32l010_systick.h)(0x677F78FA)
+I (..\Usr\src\../inc/interrupts_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_btim.h)(0x683FE92E)
+I (..\Libraries\inc\cw32l010_atim.h)(0x683FFA9E)
+I (..\Libraries\inc\cw32l010_uart.h)(0x688C0C1E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\cw32l010_iwdt.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_vc.h)(0x677F78FA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Qi\Inc\config.h)(0x690C6700)
+I (..\Libraries\inc\cw32l010_adc.h)(0x677F78FA)
+F (..\Usr\src\bsp_vc.c)(0x6A59FC69)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\bsp_vc.o --omf_browse .\objects\bsp_vc.crf --depend .\objects\bsp_vc.d)
+I (..\Usr\src\../inc/main.h)(0x6A55ED2F)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\cw32l010_systick.h)(0x677F78FA)
+I (..\Usr\src\../inc/interrupts_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_btim.h)(0x683FE92E)
+I (..\Libraries\inc\cw32l010_atim.h)(0x683FFA9E)
+I (..\Libraries\inc\cw32l010_uart.h)(0x688C0C1E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\cw32l010_iwdt.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_vc.h)(0x677F78FA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Qi\Inc\config.h)(0x690C6700)
+I (..\Usr\inc\bsp_vc.h)(0x6A589D51)
+F (..\Usr\src\bsp_uart.c)(0x6A7BE992)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\bsp_uart.o --omf_browse .\objects\bsp_uart.crf --depend .\objects\bsp_uart.d)
+I (..\Usr\inc\bsp_uart.h)(0x6A572218)
+I (..\Usr\src\../inc/main.h)(0x6A55ED2F)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\cw32l010_systick.h)(0x677F78FA)
+I (..\Usr\src\../inc/interrupts_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_btim.h)(0x683FE92E)
+I (..\Libraries\inc\cw32l010_atim.h)(0x683FFA9E)
+I (..\Libraries\inc\cw32l010_uart.h)(0x688C0C1E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\cw32l010_iwdt.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_vc.h)(0x677F78FA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Qi\Inc\config.h)(0x690C6700)
+I (..\uart\ring_buffer.h)(0x6A61D50B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\uart\uart_handler.h)(0x6A584B64)
+F (..\Usr\src\bsp_io.c)(0x6A61D123)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\bsp_io.o --omf_browse .\objects\bsp_io.crf --depend .\objects\bsp_io.d)
+I (..\Usr\inc\bsp_io.h)(0x6A5DC94F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Usr\src\../inc/main.h)(0x6A55ED2F)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\cw32l010_systick.h)(0x677F78FA)
+I (..\Usr\src\../inc/interrupts_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_btim.h)(0x683FE92E)
+I (..\Libraries\inc\cw32l010_atim.h)(0x683FFA9E)
+I (..\Libraries\inc\cw32l010_uart.h)(0x688C0C1E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\cw32l010_iwdt.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_vc.h)(0x677F78FA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Qi\Inc\config.h)(0x690C6700)
+I (..\Usr\inc\app_led.h)(0x6A86A2C1)
+F (..\Usr\src\bsp_flash.c)(0x6A967C95)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\bsp_flash.o --omf_browse .\objects\bsp_flash.crf --depend .\objects\bsp_flash.d)
+I (..\Usr\inc\bsp_flash.h)(0x6A968310)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+F (..\QI_prototol\qi_tx_hw.c)(0x6AB4E449)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\qi_tx_hw.o --omf_browse .\objects\qi_tx_hw.crf --depend .\objects\qi_tx_hw.d)
+I (..\QI_prototol\qi_tx_hw.h)(0x6A66F80B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\QI_prototol\qi_tx_protocol.h)(0x6A82F0B9)
+I (..\Usr\inc\main.h)(0x6A55ED2F)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\cw32l010_systick.h)(0x677F78FA)
+I (..\Usr\inc\interrupts_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_btim.h)(0x683FE92E)
+I (..\Libraries\inc\cw32l010_atim.h)(0x683FFA9E)
+I (..\Libraries\inc\cw32l010_uart.h)(0x688C0C1E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\cw32l010_iwdt.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_vc.h)(0x677F78FA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Qi\Inc\config.h)(0x690C6700)
+I (..\Usr\inc\bsp_io.h)(0x6A5DC94F)
+F (..\QI_prototol\qi_tx_protocol.c)(0x6AB4E43F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\qi_tx_protocol.o --omf_browse .\objects\qi_tx_protocol.crf --depend .\objects\qi_tx_protocol.d)
+I (..\QI_prototol\qi_tx_protocol.h)(0x6A82F0B9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\QI_prototol\qi_tx_hw.h)(0x6A66F80B)
+F (..\uart\ring_buffer.c)(0x6A61D59D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\ring_buffer.o --omf_browse .\objects\ring_buffer.crf --depend .\objects\ring_buffer.d)
+I (..\uart\ring_buffer.h)(0x6A61D50B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+F (..\uart\uart_handler.c)(0x6AA8ECFF)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\uart_handler.o --omf_browse .\objects\uart_handler.crf --depend .\objects\uart_handler.d)
+I (..\uart\uart_handler.h)(0x6A584B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\uart\ring_buffer.h)(0x6A61D50B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\uart\uart_protocol.h)(0x6A5746EA)
+I (..\Usr\inc\../inc/main.h)(0x6A55ED2F)
+I (..\Libraries\inc\base_types.h)(0x6A967ACF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (..\Libraries\inc\cw32l010.h)(0x677F78FA)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\Libraries\inc\cw32l010_gpio.h)(0x6A5D8F7A)
+I (..\Libraries\inc\system_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_sysctrl.h)(0x683FE4DC)
+I (..\Libraries\inc\cw32l010_systick.h)(0x677F78FA)
+I (..\Usr\inc\../inc/interrupts_cw32l010.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_btim.h)(0x683FE92E)
+I (..\Libraries\inc\cw32l010_atim.h)(0x683FFA9E)
+I (..\Libraries\inc\cw32l010_uart.h)(0x688C0C1E)
+I (..\Libraries\inc\cw32l010_flash.h)(0x6842B084)
+I (..\Libraries\inc\cw32l010_iwdt.h)(0x677F78FA)
+I (..\Libraries\inc\cw32l010_vc.h)(0x677F78FA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Qi\Inc\config.h)(0x690C6700)
+I (..\Usr\inc\app_control.h)(0x6A964772)
+F (..\uart\uart_protocol.c)(0x6A995003)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Usr -I ..\Usr\inc -I ..\Qi\Inc -I ..\QI_prototol -I ..\uart-I.\RTE\_Target_1-IC:\Users\36591\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\36591\AppData\Local\Arm\Packs\WHXY\CW32L010_DFP\1.0.2\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_-o .\objects\uart_protocol.o --omf_browse .\objects\uart_protocol.crf --depend .\objects\uart_protocol.d)
+I (..\uart\uart_protocol.h)(0x6A5746EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\uart\ring_buffer.h)(0x6A61D50B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
